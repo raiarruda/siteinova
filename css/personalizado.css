@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Regular.otf') format('otf');
+    src: url('BebasNeue-Regular.ttf') format('ttf');
+    src: url('BebasNeue-Regular.woff') format('woff');
+    src: url('BebasNeue-Regular.woff2') format('woff2');
+ 
+}
+
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('raleway-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Raleway'), local('Raleway-Regular'),
+         url('raleway-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('raleway-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('raleway-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('raleway-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('raleway-v14-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+
+.fonte-inova {
+    font-family: 'Bebas Neue';
+    font-size: 3.5vh;
+}
+
+html,
+body {
+    height: 100%;
+}
+html {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+body {
+    min-height: 100%;
+    background-color: #182722;
+    font-family: 'Raleway'; 
+}
+
+h2 {
+    font-family: 'Raleway';
+}
+
+textarea {
+    resize: none;
+}
+
+.bg-opacity {
+    opacity: 98%;
+}
+
+.bg-color-menu {
+    background-color: #229971;
+}
+
+.bg-color-secundary {
+    background-color: #00b764;
+}
+
+.img-border-rounded {
+    border-radius: 50%;
+}
+
+.logo-width {
+    width: 8vh;
+    height: 8vh;
+}
+
+.card-style-width {
+    width: 18rem;
+}
+
+@media (min-width: 575px) {
+    .container-form {
+        margin: auto;
+        padding-left: 30%;
+        text-align: start;
+    }
+}
+@media (min-width: 768px) {
+    .container-form {
+        margin: auto;
+        padding-left: 30%;
+        text-align: start;
+    }
+}
+@media (min-width: 992px) {
+    .container-form {
+        margin: auto;
+        padding-left: 30%;
+        text-align: start;
+    }
+}
+@media (min-width: 1200px) {
+    .container-form {
+        margin: auto;
+        padding-left: 30%;
+        text-align: start;
+    }
+}
+
+.container-section {
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+}
+
+.container-footer {
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+}
+
+.nav-padding {
+    margin-top: 10vh;
+}
+
+/* Funcionario da direita pequeno*/
+@media (min-width: 576px) {
+    .equipe-height-phone {
+        height: 0px;
+        width: 0px;
+        opacity: 0%;
+    }
+}
+/* Funcionario da direita grande*/
+@media (max-width: 575px) {
+    .equipe-height-desktop {
+        height: 0px;
+        width: 0px;
+        opacity: 0%;
+    }
+}
+/* Espaço pequeno */
+    @media (max-width: 575px){
+        .padding-short {
+            padding-top: 4vh;
+        }
+        .padding-long {
+            padding-top: 16vh;
+        }
+    }
+/* Espaço grande */
+@media (min-width: 576px) {
+    .padding-big-short {
+        padding-top: 4vh;
+    }
+}
+@media (max-width: 575px){
+    .name-text {
+        text-align: center;
+    }
+}
